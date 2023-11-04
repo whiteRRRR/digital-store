@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название новости</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand brand-offset" href="index.html">whiteRR</a>
+            
+            <!-- Кнопки для мобильных устройств -->
+        
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="product_list.html">Товары</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="#">Новости</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link active" aria-current="page" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item p-2 d-lg-none">
+                        <a class="nav-link active" aria-current="page" href="#">Избранное</a>
+                    </li>
+                    <li class="nav-item p-2 d-lg-none">
+                        <a class="nav-link active" aria-current="page" href="cart_list.html">Корзина</a>
+                    </li>
+                    <li class="nav-item p-2 d-lg-none">
+                        <a class="nav-link active" aria-current="page" href="#">Войти</a>
+                    </li>
+                    <li class="nav-item p-2 d-lg-none">
+                        <a class="nav-link active" aria-current="page" href="#">Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Кнопки для настольных компьютеров -->
+            <div class="d-none d-lg-block">
+                <!-- Иконка избранное -->
+                <a class="btn mr-2" href="favorites.html">
+                    <i class="fas fa-heart"></i>
+                </a>
+                <!-- Иконка корзины -->
+                <a class="btn mr-2" href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a class="btn btn-black mr-2" href="login.html">Войти</a>
+                <a class="btn btn-black" href="registration.html">Регистрация</a>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- =========== -->
+
+    <!-- NEWS_CONTENT -->
+    <main class="container">
+        <article>
+            <h2 id="news-title">Заголовок новости в стиле Medium</h2>
+            <img src="img/fee_786_587_png.webp" alt="">
+            <div id="news-author">
+                <img src="path_to_author_avatar.jpg" alt="Автор" style="width: 50px; border-radius: 50%; margin-right: 10px;">
+                Имя автора, <span>Дата публикации: 14.08.2023</span>
+            </div>
+            <div class="actions d-flex align-items-center my-4">
+                <button class="btn btn-outline-primary mr-3 d-flex align-items-center">
+                    <i class="fas fa-thumbs-up mr-2"></i> Лайк <span class="ml-2">123</span>
+                </button>
+                <button class="btn btn-outline-danger mr-3 d-flex align-items-center">
+                    <i class="fas fa-thumbs-down mr-2"></i> Дизлайк <span class="ml-2">45</span>
+                </button>
+            </div>
+            
+            
+            <section id="news-content">
+                <p>dsfsdfs sdfsd  sdf sdsd fsd f sdf sd sdf sdlkf  sdflksd f sflksd fsd s klfsd s flsd fs sdlfk sd sklf sd</p>
+            </section>
+        </article>
+    </main>
+    <!-- =========== -->
+
+
+
+    <!-- FOTTER -->
+    <footer class="bg-black text-white feature-margin">
+        <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+            <h5 class="text-uppercase footer">whiteRR shop</h5>
+            <p class="footer">whiteRR@gmail.com</p>
+            </div>
+    
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase  footer">Social</h5>
+        
+                <ul class="list-inline mb-0 footer">
+                    <li class="list-inline-item">
+                    <a href="#!" class="text-white">Instagram</a>
+                    </li>
+                    <li class="list-inline-item">
+                    <a href="#!" class="text-white">Twitter</a>
+                    </li>
+                    <li class="list-inline-item">
+                    <a href="#!" class="text-white">Threads</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase  footer">More Links</h5>
+        
+                <ul class="list-inline mb-0 footer">
+                    <li class="list-inline-item">
+                        <a href="#!" class="text-white">Главная</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#!" class="text-white">Товары</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#!" class="text-white">Контакты</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#!" class="text-white">Новости</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#!" class="text-white">О нас</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    
+    <!-- =========== -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

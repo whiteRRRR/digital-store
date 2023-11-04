@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('/font/CascadiaCode.ttf');
+  }
+
+.brand-offset {
+  margin-left: 50px;
+  font-size: 25px;
+  padding-right: 200px;
+  font-family:'Cascadia Code';
+}
+
+
+/* SMARTPHONE SETTINGS */
+@media (max-width: 768px) {
+  .brand-offset {
+    margin-left: 10px;
+    font-size: 20px;
+    padding-right: 40px;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+
+  .mobile-banner-text {
+    padding: 10px;
+    overflow: auto;
+    font-size: 14px;
+  }
+
+  .mobile-full-vh {
+    height: 100vh;
+  }
+
+  .mobile-font-size{
+    font-size: 10px;
+  }
+
+}
+
+/* =========== */
+
+
+body {
+    font-family:'Cascadia Code';
+    font-size: 25px;
+    width: 100%;
+}
+
+.bg-black {
+    background-color: black;
+  }
+
+ 
+.feature-margin{
+    margin-top: 100px;
+}
+
+
+/* BUTTON */
+.btn-black {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: 1px solid #000; /* Black border */
+    padding: 10px 20px; /* 10px top and bottom padding, 20px left and right padding */
+    margin-left: 10px;
+    max-width: 200px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+
+
+.btn-black:hover {
+  background-color: #fff; /* White background on hover */
+  color: #000; /* Black text on hover */
+}
+
+.button-heart {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button-heart:hover {
+  background-color: white;
+  color: black;
+}
+/* =========== */
+
+
+
+/* FOOTER */
+.footer{
+    font-size: 14px;
+}
+/* =========== */
+
+
+
+
+.custom-card {
+  padding: 1rem; /* Внутренние отступы карточки */
+}
+
+.custom-card img.card-img-top {
+  height: 500px; /* Высота изображения */
+  object-fit: cover; /* Чтобы изображение корректно заполняло блок */
+}
+
+
+
+/* NEWS_PAGE */
+
+#news-title {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+#news-author {
+  font-size: 0.8em;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+#news-content p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  max-width: 800px;
+}
+
+main.container {
+  max-width: 900px;
+}
+
+
+/* CART_LIST */
+.table, 
+.table > tbody > tr, 
+.table > tbody > tr > td, 
+.table > thead > tr, 
+.table > thead > tr > th {
+    border: none !important;
+    border-collapse: collapse;
+}
+
+.table-wrapper {
+    border: none !important;
+}

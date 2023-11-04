@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand brand-offset" href="index.html">whiteRR</a>
+                
+                <!-- Кнопки для мобильных устройств -->
+            
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" aria-current="page" href="product_list.html">Товары</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" aria-current="page" href="#">Новости</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" aria-current="page" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item p-2 d-lg-none">
+                            <a class="nav-link active" aria-current="page" href="#">Избранное</a>
+                        </li>
+                        <li class="nav-item p-2 d-lg-none">
+                            <a class="nav-link active" aria-current="page" href="cart_list.html">Корзина</a>
+                        </li>
+                        <li class="nav-item p-2 d-lg-none">
+                            <a class="nav-link active" aria-current="page" href="#">Войти</a>
+                        </li>
+                        <li class="nav-item p-2 d-lg-none">
+                            <a class="nav-link active" aria-current="page" href="#">Регистрация</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Кнопки для настольных компьютеров -->
+                <div class="d-none d-lg-block">
+                    <!-- Иконка избранное -->
+                    <a class="btn mr-2" href="favorites.html">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <!-- Иконка корзины -->
+                    <a class="btn mr-2" href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a class="btn btn-black mr-2" href="login.html">Войти</a>
+                    <a class="btn btn-black" href="registration.html">Регистрация</a>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- =========== -->
+
+        <div class="container-fluid h-100 full-height-table md-4 mt-4">
+            <h1 class="text-center">Избранное</h1>
+            <form id="favoritesForm">
+                <table class="table table-bordered table-wrapper table-borderless mt-5 md-5">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Add</th> 
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://s.cdpn.io/3/dingo-dog-bones.jpg" class="img-fluid" alt="Dingo Dog Bones" style="width: 100px;"></td>
+                            <td>Dingo Dog Bones</td>
+                            <td>$12</td>
+                            <td><input type="checkbox" name="product" value="Dingo Dog Bones"></td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png" class="img-fluid" alt="Nutro™ Adult Lamb and Rice Dog Food" style="width: 100px;"></td>
+                            <td>Nutro™ Adult Lamb and Rice Dog Food</td>
+                            <td>$23</td>
+                            <td><input type="checkbox" name="product" value="Nutro™ Adult Lamb and Rice Dog Food"></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit" class="btn btn-black mb-4">Добавить в корзину</button>
+            </form>
+        </div> 
+
+        <!-- Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
