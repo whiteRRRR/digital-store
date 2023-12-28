@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.xml
 
 # C extensions
 *.so
@@ -152,9 +153,10 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-
-
-
+# Certs
+backend/src/certs
+backend/src/certs/jwt-private.pem
+backend/src/certs/jwt-public.pem
 
 
 # PyCharm
